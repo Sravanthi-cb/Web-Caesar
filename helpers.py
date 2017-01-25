@@ -23,8 +23,7 @@ def rotate_character(char, rot):
     char must be a single character and rot must be a positive integer.
     char is returned AS IS if any errors, including if it is not a character
     """
-    if type(char) != type(''):
-        return char
+
     if type(rot) != type(1):
         return char
 
